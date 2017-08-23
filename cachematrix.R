@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## R programming Assignment 2
+## Agust 2017
+## authur : 02288252525
 
-## Write a short comment describing this function
+## makeCacheMatrix
 
 makeCacheMatrix <- function(x=matrix()){
         i <- NULL
@@ -18,8 +19,7 @@ makeCacheMatrix <- function(x=matrix()){
 
 
 
-## Write a short comment describing this function
-
+## cacheSolve 
 cacheSolve <- function(x,...){
         i <- x$getinverse()
         if(!is.null(i)){
